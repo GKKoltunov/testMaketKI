@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    height:100px;
+    background: rgb(216, 127, 247);
+    padding: 27.5px 0;
+
+    &__links{
+        display: flex;
+        max-width: 745px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    &__link{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 45px;
+    
+}
+}
+
+@media(max-width:800px){
+    .footer{
+        &__links{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        &__link{
+            font-size: 20px;
+        }
+    }
+}

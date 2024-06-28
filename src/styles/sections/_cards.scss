@@ -1,0 +1,36 @@
+.cards{
+    max-width: 1120px;
+    max-height: 248px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: rgb(212, 255, 90);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding:25px;
+
+    &__element{
+        max-height: 100%;
+        border: 2px solid rgb(0, 255, 74);
+        border-radius: 35px;
+        box-shadow: 2px 5px 10px 0px rgb(73, 121, 87);
+        background: rgb(73, 121, 87);
+        aspect-ratio: 1/1;
+    }
+}
+
+.textBTN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+h3{
+    text-align: center;
+    color: rgb(243, 243, 243);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 45px;
+    }

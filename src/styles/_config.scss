@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  height: 1568px;
+  max-width: 1170px;
+  margin: 0 auto;
+  background: rgb(166, 201, 255);
+  position: relative;
+}
+body{
+  width: 100vw;
+}
+
+.openModal{
+width: 262px;
+height: 58px;
+border-radius: 25px;
+background: rgb(255, 75, 75);
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+border:0;
+cursor: pointer;
+}
+
